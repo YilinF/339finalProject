@@ -1,0 +1,25 @@
+a.skip {
+  background: azure;
+  left: 0;
+  padding: 6px;
+  position: absolute;
+  top: -40px;
+  -webkit-transition: top 1s ease-out;
+  transition: top 1s ease-out;
+  z-index: 1;
+}
+
+.table {
+  flex-basis: 450px;
+  border-radius: 0%;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
