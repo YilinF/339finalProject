@@ -5,17 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/gallery.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <title>Jasmine AA</title>
   </head>
   <body>
-      <a class = "skip" href="#skip">Skip to Main Content</a>
+    <a href="#skip" class ="skip">Skip to Main Content</a>
     <header>
-      <img src="images/logo.png" alt="" id = "logo">
+      <h1>Jasmine Bubble Tea and Eatery</h1>
       <nav>
         <ul class="nav_links">
           <li class="nav_item"><a href="index.html">About</a></li>
-          <li class="nav_item"><a href="gallery.html">Gallery</a></li>
-          <li class="nav_item"><a href="customer.html">Customer Reviews</a></li>
+          <li class="nav_item" id = "current" ><a href="gallery.html">Gallery</a></li>
+          <li class="nav_item"><a href="customer.html">Testimonials</a></li>
         </ul>
     </nav>
   </header>
@@ -23,22 +24,84 @@
 
       <h2 id = "gallery">Gallery</h2>
         <div class="gallery"> 
-            <img id="image1" src="images/fruitea.jpeg" alt="" />
-            <img id="image2" src="images/mango_suit.jpeg" alt="" />
-            <img id="image3" src="images/mango_tea.jpeg" alt="" />
-            <img id="image4" src="images/oreo.jpeg" alt="" />
-            <img id="image5" src="images/strawberry.jpeg" alt="" />
-            <img id="image6" src="images/taro_tea.jpeg" alt="" />
-            <img id="image7" src="images/tea.jpeg" alt="" />
-            <img id="image8" src="images/strawberry_orange.jpeg" alt="" />
-            <img id="image9" src="images/yuenyeung.jpeg" alt="" />
-            <img id="image10" src="images/orange.jpeg" alt="" />
+          <div class = "box">
+            <img class = "image" id="image1" src="images/fruitea.jpeg" alt="fruit teas" />
+            <div class = "textbox">
+              <div class="caption">Fruit Teas</div>
+            </div>
+          </div>
+
+          <div class = "box">
+            <img id="image2" class = "image" src="images/mango_suit.jpeg" alt="mango teas" />
+            <div class = "textbox">
+              <div class="caption">Mango Teas</div>
+            </div>
+          </div>
+          
+          <div class = "box">
+            <img class = "image" id="image3" src="images/oreo.jpeg" alt="oreo smash" />
+            <div class = "textbox">
+              <div class="caption">Oreo Smash</div>
+            </div>
+          </div>
+
+          <div class = "box">
+            <img class = "image" id="image4" src="images/strawberry.jpeg" alt="strawberry mochi latte" />
+            <div class = "textbox">
+              <div class="caption">Strawberry Mochi Latte</div>
+            </div>
+          </div>
+
+          <div class = "box">
+            <img id="image5" class="image" src="images/taro_tea.jpeg" alt="taro teas" />
+            <div class = "textbox">
+              <div class="caption">Taro Teas</div>
+            </div>
+          </div>
+          
+          <div class = "box">
+            <img class= "image" id="image6" src="images/tea.jpeg" alt="cheezo slushees" />
+            <div class = "textbox">
+              <div class="caption">Cheezo Slushees</div>
+            </div>
+          </div>
+          
+          <!-- <div class="row-wrapper"> -->
+            <div class = "box" id="box7">
+              <img class ="image" id="image7" src="images/strawberry_orange.jpeg" alt="strawberry orange jasmine" />
+              <div class = "textbox">
+                <div class="caption">Strawberry Orange Jasmine</div>
+              </div>
+            </div>
+  
+            <div class = "box" id="box8">
+              <img id="image8" src="images/yuenyeung.jpeg" alt="hong kong yuenyeung milk tea" />
+              <div class = "textbox">
+                <div class="caption">Hong Kong Yuenyeung Milk Tea</div>
+              </div>
+            </div>  
+            
+            <div class = "box" id="box9">
+              <img class="image" id="image9" src="images/mango_tea.jpeg" alt="mango grapefruit sago" />
+              <div class = "textbox">
+                <div class="caption">Mango Grapefruit Sago</div>
+              </div>
+            </div>
+  
+            <div class = "box" id="box10">
+              <img class ="image" id="image10" src="images/orange.jpeg" alt="orange teas" />
+              <div class = "textbox">
+                <div class="caption">Orange Fruit Tea</div>
+              </div>
+            </div>
+          <!-- </div> -->
+            
         </div>
       </main>
 
     <footer>
-      <p>Yilin <br/>
-        &copy; SI 339- Web Design 2019-2020</p>
+      <p>By Yilin Fang<br/>
+        &copy; SI 339- Web Design Fall 2022</p>
     </footer>
   </body>
 </html>

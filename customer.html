@@ -5,43 +5,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/customer.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <title>Jasmine AA</title>
   </head>
   <body>
-    <a class = "skip" href="#skip">Skip to Main Content</a>
+    <a href="#skip" class ="skip">Skip to Main Content</a>
     <header>
-      <img src="images/logo.png" alt="" id = "logo">
+      <h1>Jasmine Bubble Tea and Eatery</h1>
       <nav>
         <ul class="nav_links">
           <li class="nav_item"><a href="index.html">About</a></li>
           <li class="nav_item"><a href="gallery.html">Gallery</a></li>
-          <li class="nav_item"><a href="customer.html">Customer Reviews</a></li>
+          <li class="nav_item" id="current"><a href="customer.html">Testimonials</a></li>
         </ul>
     </nav>
   </header>
   <main class="about" id="skip">
 
-      <h2 id = "reviews">Customer Reviews</h2>
+      <h2 id = "reviews">Customer Testimonials</h2>
         <div class="gallery"> 
           <div class="table">
-            <img id="image1" src="images/customer_bubble.jpeg" alt="" />
-            <img id="image2" src="images/customer_dinein.jpeg" alt="" />
-            <img id="image3" src="images/customer_food.jpeg" alt="" />
+
+            <div class = "odd">
+              <img id="image1" class = "image" src="images/customer_bubble.jpeg" alt="review by emily" />
+                <p class="caption">"Love the taro drink!" - Emily</p>
+            </div>
+
+            <div class='even'>
+              <img id="image2" src="images/customer_dinein.jpeg" alt="review by jasmine" />
+              <p class="caption">"Dine in experience was great." - Jasmine</p>
+            </div>
+
+            <div class="odd">
+              <img id="image3" src="images/customer_food.jpeg" alt="review by jason" />
+              <p class="caption">"Spicy noodle... but tasty." - Jason</p>
+            </div>
             <!-- <img id="image4" src="images/customer_straw.jpeg" alt="" /> -->
-            <img id="image5" src="images/customer_logo.jpeg" alt="" />
-            <img id="image6" src="images/customer_snacks.jpeg" alt="" />
-            <img id="image7" src="images/customer_table.jpeg" alt="" />
-            <img id="image8" src="images/customer_tall.jpeg" alt="" />
-            <img id="image9" src="images/customer_together.jpeg" alt="" />
-            <img id="image10" src="images/customer_unfinished.jpeg" alt="" />
+            <div class="even">
+              <img id="image4" src="images/customer_logo.jpeg" alt="review by neil" />
+              <p class="caption">
+                "Great shop aesthetics!" - Neil
+              </p>
+            </div>
+
+            <div class="odd">
+              <img id="image5" src="images/customer_snacks.jpeg" alt="review by nicole" />
+              <p class="caption">"Love the snacks!" - Nicole</p>
+            </div>
+
+            <div class="even">
+              <img id="image6" src="images/customer_table.jpeg" alt="review by kyle" />
+              <p class="caption"> "Favorite bubble tea shop with friends." - Kyle</p>
+            </div>
+
+            <div class="odd">
+              <img id="image7" src="images/customer_tall.jpeg" alt="review by pauline" />
+              <p class="caption">
+                "Large drink for a good price." - Pauline
+              </p>
+            </div>
+
+            <div class="even">
+              <img id="image8" src="images/customer_together.jpeg" alt="review by gavin" />
+              <p class="caption">
+                "Took my family here last weekend, they loved it!" - Gavin
+              </p>
+            </div>
+    
+            <div class="odd">
+              <img id="image9" src="images/customer_unfinished.jpeg" alt="review by max" />
+              <p class="caption">
+                "Lovely spot to hang out with friends and talk." - Max
+              </p>
+            </div>
+            
             <!-- <img id="image11" src="images/customer_wall.jpeg" alt="" /> -->
           </div>
         </div>
       </main>
 
     <footer>
-      <p>Yilin <br/>
-        &copy; SI 339- Web Design 2019-2020</p>
+      <p>By Yilin Fang<br/>
+        &copy; SI 339- Web Design Fall 2022</p>
     </footer>
   </body>
 </html>
